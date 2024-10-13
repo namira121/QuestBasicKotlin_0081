@@ -15,4 +15,7 @@ println("=== Conditional Expression ===")
         println("Negative Number")
     }
 
+    //When
+    val day = 1
+
 }
