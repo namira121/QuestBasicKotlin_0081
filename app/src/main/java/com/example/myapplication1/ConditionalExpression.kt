@@ -14,6 +14,7 @@ println("=== Conditional Expression ===")
     }else{
         println("Negative Number")
     }
+    println()
 
     //When
     val day = 1
@@ -27,6 +28,7 @@ println("=== Conditional Expression ===")
         7 -> println("Saturday")
         else -> println("Invalid Day")
     }
+    println()
 
     //Try-Catch
     val value = "10"
@@ -36,6 +38,7 @@ println("=== Conditional Expression ===")
     }catch (e: NumberFormatException){
         println("Invalid Number")
     }
+    println()
 }
 fun Perulangan(){
 println()
@@ -44,23 +47,27 @@ println()
     for (i in 1..5){
         println("Perulanan ke-$i")
     }
+    println()
 
     val cars = listOf("BMW", "Toyota", "Honda", "Audi")
     for (car in cars){
         println("Car type: $car")
     }
+    println()
 
     var x = 1
     while (x<=5){
         println("Perulangan ke-$x")
         x++
     }
+    println()
 
     var y = 1
     do {
         println("Perulangan ke-$y")
         y++
     } while(y<=5)
+    println()
 }
 
 fun main(){
