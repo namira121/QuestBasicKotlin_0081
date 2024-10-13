@@ -84,6 +84,10 @@ println()
     //Menambahkan data ke dalam Map Mutable
     shape["Rectangle"] = 4
     println(shape)
+
+    //Menghapus data dari Map Mutable
+    shape.remove("Circle")
+    println(shape)
 }
 
 fun main(){
