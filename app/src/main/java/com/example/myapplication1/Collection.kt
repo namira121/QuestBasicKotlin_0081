@@ -100,4 +100,6 @@ println()
 
 fun main(){
     ContohList()
+    ContohSet()
+    ContohMap()
 }
