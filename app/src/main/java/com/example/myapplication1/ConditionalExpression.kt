@@ -38,5 +38,10 @@ println("=== Conditional Expression ===")
     }
 }
 fun Perulangan(){
+println()
+    println("=== Perulangan ===")
 
+    for (i in 1..5){
+        println("Perulanan ke-$i")
+    }
 }
