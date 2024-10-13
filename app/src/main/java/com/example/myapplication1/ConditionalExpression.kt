@@ -28,4 +28,7 @@ println("=== Conditional Expression ===")
         else -> println("Invalid Day")
     }
 
+    //Try-Catch
+    val value = "10"
+
 }
