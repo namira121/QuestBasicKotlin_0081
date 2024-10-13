@@ -44,4 +44,7 @@ println()
     for (i in 1..5){
         println("Perulanan ke-$i")
     }
+
+    val cars = listOf("BMW", "Toyota", "Honda", "Audi")
+
 }
