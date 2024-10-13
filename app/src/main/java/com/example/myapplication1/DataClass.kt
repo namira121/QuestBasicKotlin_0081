@@ -17,4 +17,8 @@ fun main(){
     //Fungsi Equals
     val data2 = DataClass(1, "makan@gmail.com")
     println(data == data2) //false
+
+    //Fungsi Copy
+    val data3 = data.copy()
+    println(data3)
 }
